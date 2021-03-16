@@ -45,7 +45,7 @@ The team has been assigned to create an updated Customer Relationship Management
 
 ### **Team & Organizational Structure**
 
-<img src="models/Team and Organizational Structure.png" style="zoom:80%;" />
+<img src="../models/Team and Organizational Structure.png" style="zoom:80%;" />
 
 ### **Scope**
 
