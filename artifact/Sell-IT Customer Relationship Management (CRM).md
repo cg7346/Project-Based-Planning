@@ -70,7 +70,7 @@ After failing to outperform competitors, Sell-IT, the producers of a Customer Re
 
 ## **Team & Organizational Structure**
 
-<img src="models/Team and Organizational Structure v2.png" style="zoom:80%;" />
+<img src="../models/Team and Organizational Structure v2.png" style="zoom:80%;" />
 
 ### Description
 
