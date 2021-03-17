@@ -52,7 +52,7 @@ After failing to outperform competitors, Sell-IT, the producers of a Customer Re
 
 -   CEO - Head of company, hired the team, sets goals for Sell-IT
 
--   Team - Responsible for development of Sell-IT program
+-   Development Team - Responsible for development of Sell-IT program
 
 -   Marketing - Responsible for branding of Sell-IT, ensuring it looks modern and highlighting features of program
 
@@ -68,7 +68,7 @@ After failing to outperform competitors, Sell-IT, the producers of a Customer Re
 
 ## **Team & Organizational Structure**
 
-<img src="../models/Team and Organizational Structure v2.png" style="zoom:80%;" />
+<img src="../models/Team and Organizational Structure v3.png" style="zoom:80%;" />
 
 ### **Description**
 
@@ -78,9 +78,9 @@ After failing to outperform competitors, Sell-IT, the producers of a Customer Re
 
 -   Project Manager - Organizes and manages the development of the Sell-It Product. Communicates with other departments to keep transparency on the product high and relays messages from customers and other departments to the team
 
--   Project Architect - Works closely with the development team on the actual creation of the product. They're job is to make the plan for how the project is structured and make sure the team follows it.
+-   Project Architect - Works closely with the development team on the actual creation of the product. Their job is to make the plan for how the project is structured and make sure the team follows it.
 
--   Development Team - Make the actual the Sell-IT program. Currently only five people are employed by the company (not including the project manager and project architect). More developers will be hired as the project expands and eventually there may be multiple development teams.
+-   Development Team - Make the actual Sell-IT program. Currently only five people are employed by the company (not including the project manager and project architect). More developers will be hired as the project expands and eventually there may be multiple development teams.
 
 -   Sales - These are the people going out and bringing in customers to test and hopefully buy the Sell-IT product when it is ready. Only three people have been hired so far.
 
@@ -148,6 +148,7 @@ After failing to outperform competitors, Sell-IT, the producers of a Customer Re
 
 -   Full built-in training seminar
 
+
 ------
 
 # Artifact 2
@@ -160,42 +161,39 @@ Methodology Analysis, Risks, and Decision
 
 #### *Team Software Process (TSP)*
 
-- supports the development of industrial strength software through the use of team building, planning, and control.
+-   supports the development of industrial strength software through the use of team building, planning, and control.
+-   Strengths:
 
-- Strengths:
+    -   Take ownership of their process and plans to make realistic commitments to the project
 
-  -   Take ownership of their process and plans to make realistic commitments to the project
+    -   Consistently using processes and methods they select in order to stay on track
 
-  -   Consistently using processes and methods they select in order to stay on track
+    -   Allows team and project managers to have clear visibility of the progress as the team progresses week to week
+-   Weaknesses:
 
-  -   Allows team and project managers to have clear visibility of the progress as the team progresses week to week
+    -   Being artifact centric and high ceremony, or in other terms having many deliverables, meetings, etc.
 
-- Weaknesses:
+    -   Does not do a great just as scaling for small team and shorter projects
+-   Meshing:
 
-  -   Being artifact centric and high ceremony, or in other terms having many deliverables, meetings, etc.
+    -   Provides the organization needed for a project like this using artifacts
 
-  -   Does not do a great just as scaling for small team and shorter projects
+    -   Help by having a team leader or coach that will oversee the project from a managers perspective, which in the end is a great benefit to our stakeholders in the project
+-   Risk Register
 
-- Meshing:
-
-  -   Provides the organization needed for a project like this using artifacts
-
-  -   Help by having a team leader or coach that will oversee the project from a managers perspective, which in the end is a great benefit to our stakeholders in the project
-
-- Risk Register
-
-  | Name                                                         | Description                                                  | Mitigation                                                   |
-  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | Overestimating time is takes to complete artifacts           | Tech team overestimates their capabilities for finishing their requirements which results in the process being delayed | After a project requirement does not meet a  set deadline switch the predetermined schedule  to allow for more leeway next time. |
-  | The Team Leader or Coach leaves                              | The Team Leader or Coach has to leave  for an unknown amount of time due to  a family emergency. | The team comes together and discusses who they think  is the most qualified to take over as a Team  Leader/Coach based on experience and other team  members' feedback. |
-  | Members of the team are not trained in the TSP process       | There is a need for a lot of training for TSP to work, and the team’s members have not been properly trained before starting the developmental process. | Set clear training guidelines that developers are required to go through. Making sure they clearly understand the type of process we are using. Asking each individual developer how comfortable they are with the process is being used. |
-  | Company income much less than expected, leading to project scale decrease | The CEO greatly overestimated the income of the company making it so the MVP was the full project. The ceremony of TSP becomes too much for the small project, and team members get frustrated and lose productivity. | The CEO hires a professional accountant to handle finances, so extra money is reserved to get through low points. |
+| Name                                                         | Description                                                  | Mitigation                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Overestimating time is takes to complete artifacts           | Tech team overestimates their capabilities for finishing their requirements which results in the process being delayed | After a project requirement does not meet a  set deadline switch the predetermined schedule  to allow for more leeway next time. |
+| The Team Leader or Coach leaves                              | The Team Leader or Coach has to leave  for an unknown amount of time due to  a family emergency. | The team comes together and discusses who they think  is the most qualified to take over as a Team  Leader/Coach based on experience and other team  members' feedback. |
+| Members of the team are not trained in the TSP process       | There is a need for a lot of training for TSP to work, and the team’s members have not been properly trained before starting the developmental process. | Set clear training guidelines that developers are required to go through. Making sure they clearly understand the type of process we are using. Asking each individual developer how comfortable they are with the process is being used. |
+| Company income much less than expected, leading to project scale decrease | The CEO greatly overestimated the income of the company making it so the MVP was the full project. The ceremony of TSP becomes too much for the small project, and team members get frustrated and lose productivity. | The CEO hires a professional accountant to handle finances, so extra money is reserved to get through low points. |
 
 ### **Agile**
 
 #### *Feature Driven Design (FDD)*
 
 -   Blends a number of industry-recognized best practices into a cohesive whole; to deliver tangible, working software repeatedly in a timely manner.
+
 -   Strengths
 
     -   Useful for scaling a small agile development to a long-term project with a large team
@@ -207,6 +205,7 @@ Methodology Analysis, Risks, and Decision
     -   Client-valued (feature) perspective
 
     -   Requires fewer meetings than Agile methodologies
+
 -   Weaknesses
 
     -   Doesn't work well for smaller projects
@@ -214,6 +213,7 @@ Methodology Analysis, Risks, and Decision
     -   Places high dependence on a chief programmer (acts as a coordinator, lead designer, and mentor)
 
     -   Produces no client-facing documentation
+
 -   Meshing
 
     -   FDD defines the following main roles:
@@ -231,6 +231,7 @@ Methodology Analysis, Risks, and Decision
         -   Domain expert
 
     -   These roles would work fairly well with the company and team organizational structures laid out in Artifact 1.
+
 -   Risk Register
 
 | Risk Name                                    | Description of Risk                                          | Mitigation                                                   |
@@ -239,8 +240,6 @@ Methodology Analysis, Risks, and Decision
 | Management switches  existing project to FDD | FDD may not work well with existing systems  because there is no model to define the system. | Spend time to examine the existing system and create  a general model, if possible. Otherwise, the project  may need to be started over. |
 | Developer goes on vacation                   | A developer working on a class (part of a  feature being currently worked on) goes on  vacation. | Have all members of the feature teams be familiar  with the classes comprising their feature at a basic  level. |
 | Large feature is  introduced                 | A feature is added to the project scope that  cannot be completed in its entirety within  2 weeks. | Break down the feature into multiple smaller features.       |
-
-### **~~Agile~~**
 
 #### *Scrum*
 
@@ -327,7 +326,6 @@ Methodology Analysis, Risks, and Decision
 
     -   Can get a functioning product out the door fast
 
-
 | Risk Name                                                    | Description of Risk                                          | Mitigation                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Two team members are unagreeable  with each other and refuse to  work together. | Two of the members on the team are always  disagreeing with each other during the daily  meetings and refuse to code in pairs. This  greatly reduces the productivity of them in  a pair and the team as a whole because the  entire vibe is uncomfortable. | Hold an extensive behavioral interview before a  person is hired to make sure their personality  agrees with the team. |
@@ -337,7 +335,7 @@ Methodology Analysis, Risks, and Decision
 
 ## **Selected Methodology: Feature Driven Development (FDD)**
 
-We chose FDD because it most closely aligns with Sell-IT’s ideal modular design. Each iteration of the process would allow the team to meet with customers to receive feedback, molding the product to exactly what the market wants. At the end of each iteration working software is delivered, so as soon as the minimal viable product is working, it is available to the customers. FDD also allows for the company to emulate startup culture while being an older company having to integrate with legacy software. Developers do not have to be meeting everyday and looking over each other's shoulder, but still can change their design based on changing requirements rather easily. FDD also makes expansion of the team easy; as the project grows and more customers are acquired the team will need to expand too.
+We chose FDD because it most closely aligns with Sell-IT's ideal modular design. Each iteration of the process would allow the team to meet with customers to receive feedback, molding the product to exactly what the market wants. At the end of each iteration working software is delivered, so as soon as the minimal viable product is working, it is available to the customers. FDD also allows for the company to emulate startup culture while being an older company having to integrate with legacy software. Developers do not have to be meeting everyday and looking over each other\'s shoulder, but still can change their design based on changing requirements rather easily. FDD also makes expansion of the team easy; as the project grows and more customers are acquired the team will need to expand too.
 
 ### **Potential Risks**
 
@@ -358,7 +356,7 @@ We chose FDD because it most closely aligns with Sell-IT’s ideal modular desig
 
 Estimation and Scheduling
 
-## Work-Breakdown Structure (WBS)
+## **Work-Breakdown Structure (WBS)**
 
 1.  Sell-IT Customer Relations Management Program
 
@@ -576,7 +574,7 @@ Estimation and Scheduling
 
 ##  
 
-## Product Backlog
+## **Product Backlog**
 
 | **#**  | **Points** | **Story**                                                    |
 | ------ | ---------- | ------------------------------------------------------------ |
@@ -593,9 +591,18 @@ Estimation and Scheduling
 | **11** | 13         | As a *User*, I want to *integrate with Oracle Enterprise Resource planning* so that I can *have multiple platforms’ features* |
 | **12** | 13         | As a *User*, I want to *integrate with other existing enterprise systems*, so that I can *have multiple platforms’ features* |
 | **13** | 20         | As a *Manager*, I want to *have parts of the sales process workflow automated* so that we can *be more competitive* |
-| **14** | 20         | As a *Manager*, I want to be able to *expand the capabilities of the software* so that we can *increase productivity and successful campaigns*v |
+| **14** | 20         | As a *Manager*, I want to be able to *expand the capabilities of the software* so that we can *increase productivity and successful campaigns* |
+| **15** | 3          | As a *User*, I want to *have data collection* so I can *get data from ad views and clicks.* |
+| **16** | 3          | As a *User*, I want to *have data collection* so I can *get data from news mentions* |
+| **17** | 3          | As a *User*, I want to *have data collection* so I can *get data from purchasing/pricing page views* |
+| **18** | 3          | As a *User*, I want to *have data collection* so I can *get data from social media views* |
+| **19** | 3          | As a *User*, I want to *have data collection* so I can *get data from* purchase of product or service data collection / tracking |
+| **20** | 5          | As a *User*, I want to *be able to create an analysis from data so I can analyze the data* |
+| **21** | 5          | As a *User*, I want to *have marketing tasks* so I can *revise, marketing plans* |
+| **22** | 3          | As a *User*, I want to *have marketing tasks* so I can *approve or reject marketing plans* |
+| **23** | 3          | As a *User*, I want to *have marketing tasks* so I can *disseminate marketing plans* |
 
-## Sprint 1 Backlog
+## **Sprint 1 Backlog**
 
 | **#**     | **Points** | **Story**／**Acceptance Criteria**                           |
 | --------- | ---------- | ------------------------------------------------------------ |
@@ -611,7 +618,7 @@ Estimation and Scheduling
 |           |            | <ol type="1"><li>Product is able to collect data from websites in real-time</li><li>User is able to easily access collected data</li><li>User is able to determine marketing potentials for clients</li><li>Product dashboard is easy-to-use</li></ol> |
 | **Total** | 47         |                                                              |
 
-## Technical Process
+## **Technical Process**
 
 ### Timing
 
@@ -644,8 +651,10 @@ Estimation and Scheduling
 | **1**     | 5          | As a Developer, I want to get together with my team and discuss a Domain-driven Design so that I can develop the product. |
 | **2**     | 13         | As a Developer, I want to learn the existing CRM product and technologies used so that I can develop the product. |
 | **3**     | 5          | As a Chief Architect, I want to create a design model with my team so that I can know everyone realizes the expectations I have. |
-| **4**     | 13         | As a Project manager, I want to create a product backlog so that my team can have stories to start development. |
-| **Total** | 36         |                                                              |
+| **4**     | 13         | As a Project manager, I want to create a product backlog so that my team can have  to start development. |
+| **5**     | 13         | As a Chief Architect, I want to create the database so that we can collect data. |
+| **6**     | 8          | As a Chief Architect, I want to set up a development environment so that the developers can start working on the product. |
+| **Total** | 57         |                                                              |
 
 ### Spikes
 
@@ -656,10 +665,50 @@ Estimation and Scheduling
 | **3**     | 5          | As a Chief Architect, I want to create a design model with my team so that I can know everyone realizes the expectations I have. |
 | **Total** | 15         |                                                              |
 
-### Epics     
+### Epics
 
 | **#**     | **Points** | **Story**                                                    |
 | --------- | ---------- | ------------------------------------------------------------ |
 | **1**     | 52         | As a *User*, I want to *integrate with Salesforce, SharePoint and Oracle Enterprise Resource planning and existing enterprise systems*, so that I can *have multiple platform’s features* |
 | **2**     | 21         | As a User, I want to *have multiple workflows(data collection, data analysis, marketing tasks)*, so that I can do *all my work in one application* |
 | **Total** | 73         |                                                              |
+
+------
+
+# Artifact 4
+
+Stakeholder Analysis, Communications Plan, and Metrics
+
+## **Stakeholder Register**
+
+| **Name**               | **Classification**                          | **Level of Power** | **How they Impact**                                          | **Level of Interest** | **Artifacts**                                                | **Basic Stakeholder Management Strategy**                    |
+| ---------------------- | ------------------------------------------- | ------------------ | ------------------------------------------------------------ | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| *CEO*                  | Head of the company                         | 5                  | Manages the company and hires everyone                       | 5                     | Schedule, Budget, Forecasts, Risk Register, Customer Satisfaction Metric Report | High-Power and High Interest. The CEO has the most amount of power and interest in the project to manage it with the most amount of care. |
+| *Development Team*     | Develops the product                        | 4                  | They are making the product                                  | 5                     | Schedule, Risk Register, Forecasts, Progress Report, Lessons Learned, All Metric Reports | Medium-Power and High-Interest. The development team has high interest in the project and does not have as much power as the CEO but has medium power within the project. They should be informed and managed with care. |
+| *Marketing Department* | Branding the software                       | 2                  | They are promoting and in charge of the design               | 4                     | Schedule, Customer Satisfaction Metric                       | Low-Power and High-Interest. The marketing team has high interest in the project but low power with the development or say in project requirements. They should be kept informed of all changes within the project. |
+| *Sales Department*     | Looks for customers                         | 2                  | They are selling and speaking directly to customers          | 2                     | Schedule, Budget, Customer Satisfaction Report               | Low-Power and Low-Interest. The sales department doesn’t have much involvement in the project, nor do project details matter to them. They need a basic understanding of the product so they can sell it. |
+| *Clients*              | Customers buying/using Sell-IT              | 3                  | They give suggestions and feedback on the product            | 4                     | General Progress Report,Customer Satisfaction Report         | Medium-Power and High Interest. The client is who the product is for and has some say in the product and what they want to see. They should be kept informed of the progress and treated with care. |
+| *Client Users*         | People Sell-IT will be collecting data from | 1                  | Their information is being collected and they can give feedback | 1                     | Basic,Positive Customer Satisfaction Report                  | Low-Power and Low interest. The client user uses the product and only should be monitored. They do not need much effort. |
+| *CRM*                  | Competitors                                 | 3                  | Need to match them or do better                              | 4                     | None                                                         | Low-Power and High-Interest. There are other CRM companies in the market that Sell-IT competes with. These Competitors do not have a say in what Sell-IT does but does guide the Sell-It company in knowing what customers are expecting from them. The Competitors do have a high interest in what Sell-IT is developing. |
+
+## **Communications Plan**
+
+| **What Needs to be Communicated** | **Why**                                                      | **Between Whom**                                             | **Best Communication Method** | **Responsible for Send** | **When / How Often**               |
+| --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------- | ------------------------ | ---------------------------------- |
+| *Status of Project*               | Management & the client need to know how the project is progressing | Chief Programmer, CEO, Client                                | In Person                     | Chief Programmer         | Both Tuesday meetings every month  |
+| *New Risk*                        | Management needs to know if a new risk has appeared          | Project manager, CEO                                         | In Person                     | Project manager          | On occurrence                      |
+| *Risk Averted*                    | Management needs to know if a risk has been averted          | Project manager, CEO                                         | E-mail                        | Project manager          | On occurrence                      |
+| *Addition to Scope*               | Everyone needs to know if something has been added to the project scope | Client, Chief Architect, Chief Programmer, CEO, Development Manager, Project manager | E-mail                        | Client                   | On occurrence                      |
+| *Removal from Scope*              | Everyone needs to know if something has been removed from the project scope | Client, Chief Architect, Chief Programmer, CEO, Development Manager, Project manager | E-mail                        | Client                   | On occurrence                      |
+| *Change to Team*                  | Team members need to know if someone had been added/removed from the team | Project manager, Domain Expert, CEO, Development team        | In Person                     | CEO                      | On occurrence                      |
+| *Results of Likert Test*          | Tells the company what parts of the product the customers like / don’t like. | Development team, Marketing Team, Sales Team, Project Manager | In person                     | Sales Team               | After each release (every 2 weeks) |
+| *Number of defects*               | Developers need to know the defects as well as the CEO, Project Manager and Chief architect. This is to ensure that there are little defects on the product and the development team is not developing code that is high in defects. | CEO, Project Manager, Chief Architect, Development Team      | In Person                     | Development Team         | First Tuesday meeting of the month |
+
+## **Metrics**
+
+| **Metric Name**                           | **Rationale**                                                | **Measurements**                                             | **Usage**                                                    |
+| ----------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| *Number of defects found after a release* | With feature driven design, before releasing new updates with new features we want to make sure that we are fixing the defects as well. | After each release, we will allow customers to report defects. | Shows the ability of the team to create quality code and the effectiveness of our testing. |
+| *Test coverage of specification*          | Within our module design we would want to make sure we minimize defects by having a high test coverage. | IDE automatically calculates the number of lines of code each test runs through divided by the total number of lines or code in each module. | Make sure that the team is making a quality test that covers each base. Modules can be compared to see if higher testing coverage results in fewer defects. |
+| *User or customer satisfaction*           | We are not making this product pro bono, the customer is the main source income for the product and we want to ensure that they are satisfied with the product and will continue to support it. | After each release, we will ask customers and users to fill out a Likert scale test on their satisfaction with the product based on categories: usability, user experience, etc. | We will take the results and use it to drive the design for the upcoming features and bug fixes. |
+| *Module Complexity*                       | One of the main requirements wanted by our stakeholders. Will help us make sure we are meeting these needs and improve our customer feedback. | We will incrementally test each module being developed making sure they work smoothly with one another throughout the development process. | Allow our stakeholders to see we are looking to meet their requirements of the software being developed being modular throughout development. |
